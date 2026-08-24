@@ -81,3 +81,22 @@ body {
   background-color: #ff69b4;
   color: #ffffff;
 }
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .color-list {
+    width: 100%;
+  }
+
+  .preview-box {
+    width: 100%;
+    height: 400px;
+  }
+}
+
